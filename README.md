@@ -69,7 +69,7 @@ You are finished!!  Yes, it is that easy!!!
 1. Limit the tracking to those projects that you are committed to finishing in the next two years. This purpose of this tool is sustain your commitment to finishing this projects, not necessarily to document you effort.
 2. Use integers to name the sheets to save space. Map the project number to the project name in the project sheet.
 3. The optimal column width for the projects columns on min_day and word_day sheets is 45 points when using project numbers.
-4. Up to 30 projects can be viewed at once.
+4. Up to 30 projects can be viewed at once. You could always some of the rightmost project columns on  `min_day` and `word_day` sheet to the right of the bar plots to keep the bar plots in view without needing to scroll to the right.
 
 
 
