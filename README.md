@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writing-progress-2024-25&message=0.2&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writing-progress-2024-25&message=0.3&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # writing-progress-2024-25: Track progress on writing projects with bar plots
