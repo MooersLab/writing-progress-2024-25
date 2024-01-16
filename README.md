@@ -12,7 +12,7 @@ Most books on academic writing skip over this problem because they do not have a
 I designed the above spreadsheets to address this problem.
 
 Most writing guides suggest tracking the total effort expended on writing per day in terms of minutes spent, word count, or both.
-My spreadsheet track at the project level so that you can monitor the distribution of your effort.
+My spreadsheet tracks at the project level so that you can monitor the distribution of your effort.
 Word count tends to plateau early when writing academic papers and grant applications so tracking time is more improtant.
 The spreadsheets support tracking both.
 Like any tool, you can use it well or poorly: good luck!
@@ -60,8 +60,17 @@ You are finished!!  Yes, it is that easy!!!
 ## Adding an eleventh project
 
 1. Create the new project sheet by duplicating an old one and edit to customize.
-1. Insert a column to the right of column Q in sheets `min_day` and `word_day` and edit column name to refer to the new project name.
-2. Edit formula in Daily Total column (column E) `min_day` and `word_day` to include the new column in the range of columns so that the progress on this projects gets counted.
+2. Insert a new project column in sheets `min_day` and `word_day` and edit column name to refer to the new project name.
+3. [Optional. Read to the end.] Edit formula in Daily Total column (column E) `min_day` and `word_day` to include the new column in the range of columns so that the progress on this projects gets counted. Note that this formula will be automated updated if you insert the new column at an interior site amoungst the project columns.
+
+
+## Observations
+
+1. Limit the tracking to those projects that you are committed to finishing in the next two years. This purpose of this tool is sustain your commitment to finishing this projects, not necessarily to document you effort.
+2. Use integers to name the sheets to save space. Map the project number to the project name in the project sheet.
+3. The optimal column width for the projects columns on min_day and word_day sheets is 45 points when using project numbers.
+4. Up to 30 projects can be viewed at once.
+
 
 
 **You are now ready for the next two years!!!!** :)
