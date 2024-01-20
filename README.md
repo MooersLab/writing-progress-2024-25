@@ -37,12 +37,18 @@ To check effort on a particular project, open its project sheet and sum over col
 ## Quick start: add today's progress for project 18
 
 1. Open the file.
-2. Select the left most project sheet `18`.
-3. Enter time spend on project 18 in column F and the current day's row.
+2. Select project sheet `18`.
+3. Enter minutes spent on project 18 in column F and the current day's row.
 4. Enter the number of words written on project 18 in column G and the current day's row.
-
-
+   
 You are finished!!  Yes, it is that easy!!!
+
+Note: If you use Voice In Plus, you can map the voice command `open sheet 18` to the code`<open: <insert sheet's url> >` to use your voice to open the project 18's Google Sheet for updating.
+I use the command `open project 18` to open the project's website on Overleaf.
+
+You can something similar with Talon Voice or the built Voice Control software on the Mac.
+
+
 
 
 ## Checking progress
