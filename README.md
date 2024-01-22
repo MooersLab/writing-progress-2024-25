@@ -96,7 +96,28 @@ More details are found [here](https://github.com/MooersLab/writingProgess2023/ed
 
 # Related links
 
-- [The writer's creed](https://github.com/MooersLab/thewriterslaw)
-- [Writing Log template in LaTeX](https://github.com/MooersLab/writingLogTemplate). LaTeX beginers can use this document easily on Overleaf without any configuration.
-- [Writing Log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg) Org-mode is a powerful analog of markdown that can interpret LaTeX code blocks. It is vastly superior to markdown. It is best edited in Emacs (Sorry, Oveleaf cannot yet work with Org-mode), but VS Code has some support for org-mode files.
-- [Emacsconf 2022 talk about GhostText on YouTube, December 2022](https://www.youtube.com/watch?v=2NPUDYAOgW0&t=3s) Includes demostration of using Emacs to edit a document in Overleaf.
+## Related projects of possible interest
+
+- [Writing Log template in LaTeX](https://github.com/MooersLab/writingLogTemplate). The favored format. LaTeX beginers can use this document easily on Overleaf without any configuration.
+- [Writing log template in Org-mode](https://github.com/MooersLab/writingLogTemplateInOrg) Has all of the features of the LaTeX variant. Favored by many Emacs users. Org-mode is a powerful analog of markdown that can interpret LaTeX code blocks. It is vastly more capable than markdown. It even supports literate programming.
+- [Writing log template in reStructuredText](https://github.com/MooersLab/writing-log-rst) reStructuredText is used by programmers for documentation.
+- [Writing log template in Markdown](https://github.com/MooersLab/writing-log-md) Markdown variant. Read and rendered to PDF by most good text editors.
+- [Writing log template in ODT](https://github.com/MooersLab/writing-log-odt) ODT can be read by Open Office, LibreOffice and MS Word.
+- [Writing log template in DOCX for MS Word](https://github.com/MooersLab/writing-log-docx) MS Word variant. Probably the least suitable format for this task.
+- [Voice computing related repos](https://github.com/MooersLab#voice-computing)
+- [LaTeX manuscript template](https://github.com/MooersLab/manuscriptInLaTeX/edit/main/README.md)
+- [Org-mode manuscript template](https://github.com/MooersLab/manuscriptInOrg/edit/main/README.md)
+- [Workbook for 2022 for tracking time spent and words written by project](https://github.com/MooersLab/writingProgress2022)
+- [Slideshow template in LaTeX](https://github.com/MooersLab/slideshowTemplateLaTeX)
+- [Annotated bibliography Template in LaTeX](https://github.com/MooersLab/annotatedBibliography)
+- [Diary for 2022 in LaTeX](https://github.com/MooersLab/diary2022inLaTeX)
+- [Diary for 2023 in LaTeX](https://github.com/MooersLab/diary2023inLaTeX)
+- [latex-emacs profile](https://github.com/MooersLab/latex-emacs)
+- [default Emacs profile](https://github.com/MooersLab/configorg)
+- [snippets for latex-mode in Emacs](https://github.com/MooersLab/snippet-latex-mode)
+- [Quizzes about Emacs to improve recall of keybindings](https://github.com/MooersLab/qemacs)
+- [Slides from talk about GhostText, Data Science Workshop, July 2022](https://github.com/MooersLab/DSW22ghosttext)
+- [Video link to talk about GhostText, Data Science Workshop, July 2022](https://mediasite.ouhsc.edu/Mediasite/Channel/python/watch/4da0872f028c4255ae12935655e911321d)
+- [Slideshow about using LaTeX in Emacs, Berlin Emacs Meetup, 31 August 2022](https://github.com/MooersLab/BerlinEmacsAugust2022)
+- [The writer's crede](https://github.com/MooersLab/thewriterslaw)
+
