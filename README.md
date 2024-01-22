@@ -3,6 +3,12 @@
 
 # writing-progress-2024-25: Track progress on writing projects with bar plots
 
+## Format
+Gogole Sheets workbook exported to Excel and ODT.
+Either can be imported back into Google Sheets.
+I recommend using the Google Sheet variant for faster access for entering daily progress.
+Store the link to the workbook in a bookmark, or better yet, in a local index.html file for fast access.
+
 ## The problem addressed
 
 Managing multiple writing projects is a significant unsolved problem in academic writing and time management.
