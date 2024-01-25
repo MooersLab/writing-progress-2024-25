@@ -95,22 +95,22 @@ You can something similar with Talon Voice or the built Voice Control software o
 - Sum formula add to row 733 at the bottom of the columns for the project in sheets `min_day` and `words_day`. 
   The minutes are also converted to hours in these sums.
 
-- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) from the workbook on Google Sheets. Must do one time authorization of access to your Google Drive and Google Sheets.
+- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) from the workbook on Google Sheets. Must do one time authorization of access to your Google Drive and Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
 
 
-
+<p align="center"><img src="images/Jan2022progr.png" style="width: 90vw; min-width: 330px;"></p>
 
 - I map these scripts to the following easy to remember bash aliases so that I can generate these plots on the fly from the prompt in the terminal.
 
 
 ```bash
 # barplots
-alias hbh='mp312 ~/0628tenRuleMultipleWritingProjects/gs2hbarm.py'
-alias hbw='mp312 ~/0628tenRuleMultipleWritingProjects/gs2hbarw.py' 
+alias hbh='mp312 ~/gs2hbarm.py'
+alias hbw='mp312 ~/gs2hbarw.py' 
 
 # heatmaps.
-alias hmh='mp312 ~/0628tenRuleMultipleWritingProjects/gs2hmm.py'
-alias hmw='mp312 ~/0628tenRuleMultipleWritingProjects/gs2hmw.py'  
+alias hmh='mp312 ~/gs2hmm.py'
+alias hmw='mp312 ~/gs2hmw.py'  
 ```
 
 
