@@ -98,7 +98,7 @@ You can something similar with Talon Voice or the built Voice Control software o
 - Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) from the workbook on Google Sheets. Must do one time authorization of access to your Google Drive and Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
 
 
-<p align="center"><img src="images/gshbarw.png" style="width: 90vw; min-width: 330px;"></p>
+<p align="center"><img src="images/gshbarw.png" style="width: 90vw; min-width: 200px;"></p>
 
 <p align="center"><img src="images/gs2hmm.png" style="width: 90vw; min-width: 330px;"></p>
 
