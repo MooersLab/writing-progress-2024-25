@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 
 gc = gspread.oauth()
 sh = gc.open('wp-2024-25')
-print(sh.worksheet("min_day").get('H1:AE1'))
-print(sh.worksheet("min_day").get('H733:AE733'))
+
+# Checking connection
+# print(sh.worksheet("min_day").get('H1:AE1'))
+# print(sh.worksheet("min_day").get('H733:AE733'))
 
 """
 Plot cumulative hours per project from Google Sheet workbook as horizontal bar plot.
