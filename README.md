@@ -100,6 +100,8 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 <p align="center"><img src="images/gshbarw.png" style="width: 90vw; min-width: 330px;"></p>
 
+<p align="center"><img src="images/gs2hmm.png" style="width: 90vw; min-width: 330px;"></p>
+
 - I map these scripts to the following easy to remember bash aliases so that I can generate these plots on the fly from the prompt in the terminal.
 
 
