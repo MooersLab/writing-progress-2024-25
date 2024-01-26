@@ -72,16 +72,16 @@ You can something similar with Talon Voice or the built Voice Control software o
 ## Adding an eleventh project
 
 1. Create the new project sheet by duplicating an old one and edit to customize.
-2. Insert a new project column in sheets `min_day` and `word_day` and edit column name to refer to the new project name.
+2. Insert a new project column in the  `min_day` and `word_day` sheets and edit column name to refer to the new project name.
 3. [Optional. Read to the end.] Edit formula in Daily Total column (column E) `min_day` and `word_day` to include the new column in the range of columns so that the progress on this projects gets counted. Note that this formula will be automated updated if you insert the new column at an interior site amoungst the project columns.
 
 
 ## Observations
 
-1. Limit the tracking to those projects that you are committed to finishing in the next two years. The purpose of this tool is sustain your commitment to finishing this projects, not necessarily to document you effort. You can use a writing log for that purpose (see [Writing Log templates](https://github.com/MooersLab#writing-log-for-planning-manuscripts)).
+1. Limit the tracking to those projects that you are committed to finishing in the next two years. The purpose of this tool is sustain your commitment to finishing this projects, not necessarily to document your effort. You can use a writing log for that purpose (see [Writing Log templates](https://github.com/MooersLab#writing-log-for-planning-manuscripts)).
 2. Use integers to name the sheets to save space. Map the project number to the project name in the project sheet.
-3. The optimal column width for the projects columns on min_day and word_day sheets is 45 points when using project numbers.
-4. Up to 30 projects can be viewed at once. You could always some of the rightmost project columns on  `min_day` and `word_day` sheet to the right of the bar plots to keep the bar plots in view without needing to scroll to the right.
+3. The optimal column width for the projects columns on the `min_day` and `word_da`y sheets is 45 points when using four digit project numbers.
+4. Up to 30 projects can be viewed at once without scrolling horizontally. You could always move some of the rightmost project columns on  `min_day` and `word_day` sheet to the right of the bar plots to keep the bar plots in view without needing to scroll to the right.
 
 
 
@@ -92,27 +92,27 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 ## Version 0.4
 
-- Sum formula add to row 733 at the bottom of the columns for the project in sheets `min_day` and `words_day`. 
-  The minutes are also converted to hours in these sums.
+- Sum formula add to row 733 at the bottom of the columns for the projects in sheets `min_day` and `words_day`. 
+  The minutes were also converted to hours in these sums.
 
-- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) from the workbook on Google Sheets. Must do one time authorization of access to your Google Drive and Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
+- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) by extracting the data from the workbook on Google Sheets. You must do a one-time authorization of access to your Google Drive and your Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
 
 
 <p align="center"><img src="images/gshbarw.png" style="width: 90vw; min-width: 200px;"></p>
 
 <p align="center"><img src="images/gs2hmm.png" style="width: 90vw; min-width: 330px;"></p>
 
-- I map these scripts to the following easy to remember bash aliases so that I can generate these plots on the fly from the prompt in the terminal.
+- I map these scripts to the following three-letter bash aliases (`hbh`, `hbw`, `hmm`, and `hmw`) so that I can generate these plots on the fly from the prompt in the terminal. `mp312` is a bash alias to Python3.12 from macports: `/opt/local/bin/python3.12`.
 
 
 ```bash
 # barplots
-alias hbh='mp312 ~/gs2hbarm.py'
-alias hbw='mp312 ~/gs2hbarw.py' 
+alias hbh='mp312 ~/gs2hbarm.py && echo "Horizontal bar plot of hours spent per project"'
+alias hbw='mp312 ~/gs2hbarw.py && echo "Horizontal bar plot of words written per project"' 
 
 # heatmaps.
-alias hmh='mp312 ~/gs2hmm.py'
-alias hmw='mp312 ~/gs2hmw.py'  
+alias hmm='mp312 ~/gs2hmm.py && echo "Heat map of minutes spent per day."'
+alias hmw='mp312 ~/gs2hmw.py && echo "Heat map of words spent per day."''  
 ```
 
 
