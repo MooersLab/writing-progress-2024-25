@@ -73,7 +73,8 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 1. Create the new project sheet by duplicating an old one and edit to customize.
 2. Insert a new project column in the  `min_day` and `word_day` sheets and edit column name to refer to the new project name.
-3. [Optional. Read to the end.] Edit formula in Daily Total column (column E) `min_day` and `word_day` to include the new column in the range of columns so that the progress on this projects gets counted. Note that this formula will be automated updated if you insert the new column at an interior site amoungst the project columns.
+3. Add the formula summation formula in row 733 of the new column else the Python scripts below will not work.
+4. [Optional. Read to the end.] Edit formula in Daily Total column (column E) `min_day` and `word_day` to include the new column in the range of columns so that the progress on this projects gets counted. Note that this formula will be automated updated if you insert the new column at an interior site amoungst the project columns.
 
 
 ## Observations
@@ -107,12 +108,12 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 ```bash
 # barplots
-alias hbh='mp312 ~/gs2hbarm.py && echo "Horizontal bar plot of hours spent per project"'
-alias hbw='mp312 ~/gs2hbarw.py && echo "Horizontal bar plot of words written per project"' 
+alias hbh='mp312 ~/gs2hbarm.py && echo "Horizontal bar plot of hours spent per project since January 1, 2024."'
+alias hbw='mp312 ~/gs2hbarw.py && echo "Horizontal bar plot of words written per project since January 1, 2024."' 
 
 # heatmaps.
-alias hmm='mp312 ~/gs2hmm.py && echo "Heat map of minutes spent per day."'
-alias hmw='mp312 ~/gs2hmw.py && echo "Heat map of words spent per day."''  
+alias hmm='mp312 ~/gs2hmm.py && echo "Heat map of minutes spent per day since January 1, 2024."'
+alias hmw='mp312 ~/gs2hmw.py && echo "Heat map of words spent per day since January 1, 2024."' 
 ```
 
 
