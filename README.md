@@ -34,7 +34,7 @@ I store a link to the Google Sheet in my web browser for instant access.
 After spending 10-30 minutes customizing the workbook for your current and planned writing projects, you should be set for tracking your writing progress by project for 2024 and 2025. 
 It should take no more than a minute a day to make the entries and to check on your monthly progress displayed as bar plots in the right margin, as shown below. 
 The sums in the bar plot are taken across all projects.
-To check effort on a particular project, open its project sheet and sum over column F for minues and column G for words.
+To check effort on a particular project, open its project sheet and sum over column F for minutes and column G for words.
 
 
 <p align="center"><img src="images/Jan2022progr.png" style="width: 90vw; min-width: 330px;"></p>
