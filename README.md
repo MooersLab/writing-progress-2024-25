@@ -79,10 +79,10 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 ## Observations
 
-1. Limit the tracking to those projects that you are committed to finishing in the next two years. The purpose of this tool is sustain your commitment to finishing this projects, not necessarily to document your effort. You can use a writing log for that purpose (see [Writing Log templates](https://github.com/MooersLab#writing-log-for-planning-manuscripts)).
+1. Limit the tracking to those projects that you are committed to finishing in the next two years. The purpose of this tool is sustain your commitment to finishing these projects, not necessarily to document your effort. You can use a writing log for that purpose (see [Writing Log templates](https://github.com/MooersLab#writing-log-for-planning-manuscripts)).
 2. Use integers to name the sheets to save space. Map the project number to the project name in the project sheet.
 3. The optimal column width for the projects columns on the `min_day` and `word_da`y sheets is 45 points when using four digit project numbers.
-4. Up to 30 projects can be viewed at once without scrolling horizontally. You could always move some of the rightmost project columns on  `min_day` and `word_day` sheet to the right of the bar plots to keep the bar plots in view without needing to scroll to the right.
+4. Up to 30 projects can be viewed at once without scrolling horizontally. You could always move some of the rightmost project columns on  `min_day` and `word_day` sheet to the right of the bar plots to keep the bar plots in view without needing to scroll to the right or you can zoom out further.
 
 
 
@@ -93,10 +93,10 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 ## Version 0.4
 
-- Sum formula add to row 733 at the bottom of the columns for the projects in sheets `min_day` and `words_day`. 
-  The minutes were also converted to hours in these sums.
+- Sum formula added to row 733 at the bottom of the columns for the projects in sheets `min_day` and `words_day`. 
+  The minutes were converted to hours in these sums.
 
-- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) by extracting the data from the workbook on Google Sheets. You must do a one-time authorization of access to your Google Drive and your Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
+- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) by extracting the data from the workbook on Google Sheets. You must provide authorization of access to your Google Drive and your Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
 
 
 <p align="center"><img src="images/gshbarw.png" style="width: 90vw; min-width: 200px;"></p>
