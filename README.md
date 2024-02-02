@@ -97,14 +97,14 @@ You can something similar with Talon Voice or the built Voice Control software o
 - Sum formula added to row 733 at the bottom of the columns for the projects in sheets `min_day` and `words_day`. 
   The minutes were converted to hours in these sums.
 
-- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) by extracting the data from the workbook on Google Sheets. You must provide authorization of access to your Google Drive and your Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html).
+- Scripts provided to plot cumulative words and time spent by project as bar plots (gs2hbarm.py and gs2hbarw.py) or by day as heatmaps (gs2hmw.py and gs2hmm.py) by extracting the data from the workbook on Google Sheets. You must provide authorization of access to your Google Drive and your Google Sheets. See the Read-the-docs for [gspread](https://docs.gspread.org/en/latest/oauth2.html). Take care to update the script file if rename the workbook.
 
 
 <p align="center"><img src="images/gshbarw.png" style="width: 90vw; min-width: 200px;"></p>
 
 <p align="center"><img src="images/gs2hmm.png" style="width: 90vw; min-width: 330px;"></p>
 
-- I map these scripts to the following three-letter bash aliases (`hbh`, `hbw`, `hmm`, and `hmw`) so that I can generate these plots on the fly from the prompt in the terminal. `mp312` is a bash alias to Python3.12 from macports: `/opt/local/bin/python3.12`.
+- I map these scripts to the following three-letter bash aliases (`hbh`, `hbw`, `hmm`, and `hmw`) so that I can generate these plots on the fly from the prompt in the terminal. `mp312` is a my bash alias to Python3.12 from macports: `/opt/local/bin/python3.12`.
 
 
 ```bash
