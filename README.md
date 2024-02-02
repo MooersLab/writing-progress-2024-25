@@ -59,7 +59,7 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 ## Checking progress
 
-1. Open sheet min_day. Scroll to right margin. Inspect bar graph for current month. The gray bars are the cumulative goals; the orange bars are the cumulative progress.
+1. Open sheet min_day. Scroll to right margin. Inspect bar graph for current month. The gray bars are the cumulative goals; the orange bars are the cumulative progress. 
 2. Repeat with sheet word_day.
 
 
@@ -67,6 +67,7 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 1. Edit the sheet tabs to change the project names. This will break the formula in the correspoinding column of the min_day and word_day sheets. Edit the formulas as needed.
 2. Edit the column names in sheets `min_day` and `word_day` to refer to the changed project name.
+3. [Optional] The goals can be reset to align with your objectives.
 
 
 ## Adding an eleventh project
