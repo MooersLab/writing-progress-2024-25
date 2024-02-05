@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=writing-progress-2024-25&message=0.4&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=writing-progress-2024-25&message=0.5&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # writing-progress-2024-25: Track progress on writing projects with bar plots
@@ -92,6 +92,11 @@ You can something similar with Talon Voice or the built Voice Control software o
 
 # Upgrades
 
+##Version 0.5
+
+- Column inserted in the min_day and word_day sheets to record the difference from the cummulative monthly total and the monthly cummulative goal. A postive value means that you are ahead of your goal, and a negative value means that you are behind your goal. A glance at this column might be faster and more informative than scrolling to the right to see the bar plots.
+
+
 ## Version 0.4
 
 - Sum formula added to row 733 at the bottom of the columns for the projects in sheets `min_day` and `words_day`. 
@@ -116,6 +121,8 @@ alias hbw='mp312 ~/gs2hbarw.py && echo "Horizontal bar plot of words written per
 alias hmm='mp312 ~/gs2hmm.py && echo "Heat map of minutes spent per day since January 1, 2024."'
 alias hmw='mp312 ~/gs2hmw.py && echo "Heat map of words spent per day since January 1, 2024."' 
 ```
+
+
 
 
 # Long form version of the README.md
