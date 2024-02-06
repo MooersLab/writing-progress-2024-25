@@ -4,10 +4,10 @@
 # writing-progress-2024-25: Track progress on writing projects with bar plots and heatmaps (see bottom)
 
 ## Format
-Gogole Sheets workbook exported to Excel and ODT.
+Google Sheets workbook exported to Excel and ODT.
 Either can be imported back into Google Sheets.
-I recommend using the Google Sheet variant for faster access for entering daily progress.
-Store the link to the workbook in a bookmark, or better yet, in a local index.html file for fast access.
+I recommend using Google Sheets for faster access for entering daily progress.
+Store the link to the workbook in a bookmark, or better yet, in a local index.html file for fast access from your browser.
 
 ## The problem addressed
 
@@ -18,23 +18,29 @@ Most books on academic writing skip over this problem because they do not have a
 I designed the above spreadsheets to address this problem.
 
 Most writing guides suggest tracking the total effort expended on writing per day in terms of minutes spent, word count, or both.
-My spreadsheet tracks at the project level so that you can monitor the distribution of your effort.
 Word count tends to plateau early when writing academic papers and grant applications so tracking time is more improtant.
 The spreadsheets support tracking both.
-Like any tool, you can use it well or poorly: good luck!
+The workbook tracks at the project level so that you can monitor the distribution of your effort.
+Like any tool, you can use it well or poorly: Good luck!
 
 
 ## Synopsis
 The above Open Office Document (writing-progress-2024-25.ods) can be imported into Google Sheets, where it was created. 
 You can also open this document in Libre Office or Open Office for offline use. 
 The Excel version writing-progress-2024-25.xlsx can be run in Microsoft Excel.
-Either docment can be imported into your Google Drive account for faster access as a Google Sheet.
-I store a link to the Google Sheet in my web browser for instant access. 
+Either docment can be imported into your Google Drive account for faster access as a Google Sheets document.
+I store a link to the Google Sheet document in my web browser for instant access. 
 
 After spending 10-30 minutes customizing the workbook for your current and planned writing projects, you should be set for tracking your writing progress by project for 2024 and 2025. 
 It should take no more than a minute a day to make the entries and to check on your monthly progress displayed as bar plots in the right margin, as shown below. 
 The sums in the bar plot are taken across all projects.
-To check effort on a particular project, open its project sheet and sum over column F for minutes and column G for words.
+To check your effort on a particular project, open its project sheet and sum over column F for minutes and column G for words.
+
+Version 0.5 contains a column of the left side of the min_day and word_day sheets with the difference bewteen the cumulative monthly total and the cumulative monthly goal.
+A negative value means that you are behind.
+
+Python scripts are included for accessing the min_day and word_day sheets remotely and displaying a summary as horizontal bar plot or a heatmap with matplotlib.
+I mapped this to three letter aliases for rapid access.
 
 
 <p align="center"><img src="images/Jan2022progr.png" style="width: 90vw; min-width: 330px;"></p>
