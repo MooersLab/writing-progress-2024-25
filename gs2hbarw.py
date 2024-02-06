@@ -12,13 +12,17 @@ OUHSC
 2024 January 25
 """
 
-gc = gspread.oauth()
-sh = gc.open('wp-2024-25')
+# gc = gspread.oauth()
+# sh = gc.open('wp-2024-25')
+
+gc = gspread.service_account()
+sh = gc.open('wp-ja-2024-25')
+
 #print(sh.worksheet("min_day").get('H1:AE1'))
 #print(sh.worksheet("min_day").get('H733:AE733'))
 
 
-P = sh.worksheet("word_day").get('H1:AE1')
+P = sh.worksheet("word_day").get('I1:AE1')
 
 # Flatten list of lists into a list of strings of project names
 projects = [
@@ -27,7 +31,7 @@ projects = [
     for x in xs
 ] 
 
-H = sh.worksheet("word_day").get('H733:AE733')
+H = sh.worksheet("word_day").get('I733:AE733')
 
 hours =  [
     x

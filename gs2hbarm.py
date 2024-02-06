@@ -2,8 +2,11 @@ import gspread
 import pandas as pd
 import matplotlib.pyplot as plt
 
-gc = gspread.oauth()
-sh = gc.open('wp-2024-25')
+gc = gspread.service_account()
+sh = gc.open('wp-ja-2024-25')
+
+# gc = gspread.oauth()
+# sh = gc.open('wp-ja-2024-25')
 
 # Checking connection
 # print(sh.worksheet("min_day").get('H1:AE1'))
@@ -20,7 +23,7 @@ OUHSC
 """
 
 # Fetch the project names to plotted on Y-axis.
-P = sh.worksheet("min_day").get('H1:AE1')
+P = sh.worksheet("min_day").get('I1:AE1')
 
 projects = [
     x
@@ -29,7 +32,7 @@ projects = [
 ] 
 
 # Minutes were converted to hours in the spreadsheet.
-H = sh.worksheet("min_day").get('H733:AE733')
+H = sh.worksheet("min_day").get('I733:AE733')
 
 
 # We get a list of lists of strings from gspread.
