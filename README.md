@@ -13,22 +13,22 @@ Store the link to the workbook in a bookmark, or better yet, in a local index.ht
 
 Managing multiple writing projects is a significant unsolved problem in academic writing and time management.
 Most academics have to make progress on two or more writing projects per day.
-The overhead for doing so consumes mental bandwith.
+The overhead for doing so consumes mental bandwidth.
 Most books on academic writing skip over this problem because they do not have a good solution for this problem.
 I designed the above spreadsheets to address this problem.
 
 Most writing guides suggest tracking the total effort expended on writing per day in terms of minutes spent, word count, or both.
-Word count tends to plateau early when writing academic papers and grant applications so tracking time is more improtant.
+Word count tends to plateau early when writing academic papers and grant applications, so tracking time is more important.
 The spreadsheets support tracking both.
 The workbook tracks at the project level so that you can monitor the distribution of your effort.
-Like any tool, you can use it well or poorly: Good luck!
+You can use it well or poorly like any tool: Good luck!
 
 
 ## Synopsis
 The above Open Office Document (writing-progress-2024-25.ods) can be imported into Google Sheets, where it was created. 
 You can also open this document in Libre Office or Open Office for offline use. 
 The Excel version writing-progress-2024-25.xlsx can be run in Microsoft Excel.
-Either docment can be imported into your Google Drive account for faster access as a Google Sheets document.
+Either document can be imported into your Google Drive account for faster access as a Google Sheets document.
 I store a link to the Google Sheet document in my web browser for instant access. 
 
 After spending 10-30 minutes customizing the workbook for your current and planned writing projects, you should be set for tracking your writing progress by project for 2024 and 2025. 
@@ -36,11 +36,11 @@ It should take no more than a minute a day to make the entries and to check on y
 The sums in the bar plot are taken across all projects.
 To check your effort on a particular project, open its project sheet and sum over column F for minutes and column G for words.
 
-Version 0.5 contains a column of the left side of the min_day and word_day sheets with the difference bewteen the cumulative monthly total and the cumulative monthly goal.
+Version 0.5 contains a column on the left side of the min_day and word_day sheets with the difference between the cumulative monthly total and the cumulative monthly goal.
 A negative value means that you are behind.
 
-Python scripts are included for accessing the min_day and word_day sheets remotely and displaying a summary as horizontal bar plot or a heatmap with matplotlib.
-I mapped this to three letter aliases for rapid access.
+Python scripts are included for accessing the min_day and word_day sheets remotely and displaying a summary as a horizontal bar plot or a heatmap with matplotlib.
+I mapped this to three-letter aliases for rapid access.
 
 
 <p align="center"><img src="images/Jan2022progr.png" style="width: 90vw; min-width: 330px;"></p>
@@ -49,16 +49,16 @@ I mapped this to three letter aliases for rapid access.
 ## Quick start: add today's progress for project 18
 
 1. Open the file.
-2. Select project sheet `18`.
+2. Select Project sheet `18`.
 3. Enter minutes spent on project 18 in column F and the current day's row.
-4. Enter the number of words written on project 18 in column G and the current day's row.
+4. Enter the number of words written on Project 18 in column G and the current day's row.
    
 You are finished!!  Yes, it is that easy!!!
 
-Note: If you use Voice In Plus, you can map the voice command `open sheet 18` to the code`<open: <insert sheet's url> >` to use your voice to open the project 18's Google Sheet for updating.
+Note: If you use Voice In Plus, you can map the voice command `open sheet 18` to the code`<open: <insert sheet's url> >` to use your voice to open Project 18's Google Sheet for updating.
 I use the command `open project 18` to open the project's website on Overleaf.
 
-You can something similar with Talon Voice or the built Voice Control software on the Mac.
+You can do something similar with Talon Voice or the built-in Voice Control software on the Mac.
 
 
 
