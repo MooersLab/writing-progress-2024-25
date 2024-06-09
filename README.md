@@ -123,7 +123,7 @@ You can do something similar with Serenade, Talon Voice, or the built-in Voice C
 
 <p align="center"><img src="images/gs2hmm.png" style="width: 90vw; min-width: 330px;"></p>
 
-- I map these scripts to the following three-letter bash aliases (`hbh`, `hbw`, `hmm`, and `hmw`) so that I can generate these plots on the fly from the prompt in the terminal. `mp312` is a my bash alias to Python3.12 from MacPorts: `/opt/local/bin/python3.12`.
+- I map these scripts to the following three-letter bash aliases (`hbh`, `hbw`, `hmm`, and `hmw`) so that I can generate these plots on the fly from the prompt in the terminal. `mp312` is a bash alias to Python3.12 from MacPorts: `/opt/local/bin/python3.12`.
 
 
 ```bash
@@ -177,4 +177,4 @@ More details are found [here](https://github.com/MooersLab/writingProgess2023/ed
 - NIH: R01 AI088011
 - NIH: P30 CA225520 (PI: R. Mannel)
 - NIH: P20 GM103640 and P30 GM145423 (PI: A. West)
-- 
+
