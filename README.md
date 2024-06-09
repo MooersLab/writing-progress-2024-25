@@ -1,13 +1,14 @@
 ![Version](https://img.shields.io/static/v1?label=writing-progress-2024-25&message=0.5.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# writing-progress-2024-25: Track progress on writing projects with bar plots and heatmaps (see bottom)
+# Track progress on writing projects with bar plots and heatmaps
 
 ## Format
-Google Sheets workbook exported to Excel and ODT.
+Google Sheets workbook exported to Excel or ODT workbook files.
 Either can be imported back into Google Sheets.
 I recommend using Google Sheets for faster access to enter daily progress.
 Store the link to the workbook in a bookmark, or better yet, in a local index.html file for fast access from your browser.
+You can also store the link in a voice command; see the quick start section below.
 
 ## The problem addressed
 
