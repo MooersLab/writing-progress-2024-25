@@ -55,10 +55,14 @@ I mapped this to three-letter aliases for rapid access.
    
 You are finished!!  Yes, it is that easy!!!
 
-Note: If you use Voice In Plus, you can map the voice command `open sheet 18` to the code`<open: <insert sheet's url> >` to use your voice to open Project 18's Google Sheet for updating.
+### Note: 
+
+If you use Voice In Plus, you can map the voice command `open sheet 18` to the code`<open: <insert sheet's url> >` to use your voice to open Project 18's Google Sheet for updating.
+You can create multiple aliases for the same web page that do not include the project number so that you can still open up the appropriate sheet without remembering the project number.
+
 I use the command `open project 18` to open the project's website on Overleaf.
 
-You can do something similar with Talon Voice or the built-in Voice Control software on the Mac.
+You can do something similar with Serenade, Talon Voice, or the built-in Voice Control software on the Mac.
 
 
 
