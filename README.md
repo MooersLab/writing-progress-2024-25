@@ -8,7 +8,7 @@ Google Sheets workbook exported to Excel or ODT workbook files.
 Either can be imported back into Google Sheets.
 I recommend using Google Sheets for faster access to enter daily progress.
 Store the link to the workbook in a bookmark, or better yet, in a local index.html file for fast access from your browser.
-You can also store the link in a voice command; see the quick start section below.
+You can also store the link in a voice command; see the [quick start](#note) section below.
 
 ## The problem addressed
 
@@ -54,7 +54,7 @@ I mapped this to three-letter aliases for rapid access.
 3. Enter minutes spent on project 18 in column F and the current day's row.
 4. Enter the number of words written on Project 18 in column G and the current day's row.
    
-You are finished!!  Yes, it is that easy!!!
+You are finished!!  It is that fast and easy!!!
 
 ### Note: 
 
