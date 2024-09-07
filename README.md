@@ -125,9 +125,6 @@ You can do something similar with Serenade, Talon Voice, or the built-in Voice C
 
 - I map these scripts to the following three-letter bash aliases (`hbh`, `hbw`, `hmm`, and `hmw`) so that I can generate these plots on the fly from the prompt in the terminal. `mp312` is a bash alias to Python3.12 from MacPorts: `/opt/local/bin/python3.12`.
 
-Here is the heatmap on September 7, 2024. It was made with alias hmj to show effort on journal articles only.
-
-<p align="center"><img src="images/hmj2024sept7.png" style="width: 140vw; min-width: 330px;"></p>
 
 ```bash
 # barplots
@@ -139,6 +136,9 @@ alias hmm='mp312 ~/gs2hmm.py && echo "Heat map of minutes spent per day since Ja
 alias hmw='mp312 ~/gs2hmw.py && echo "Heat map of words spent per day since January 1, 2024."' 
 ```
 
+Here is the heatmap on September 7, 2024. It was made with alias hmj to show effort on journal articles only. It is reading data from a sqlite time tracking database that I started in May 2022. This display shows repeating temporal variation due to teaching and NIH grant reviewer service.
+
+<p align="center"><img src="images/hmj2024sept7.png" style="width: 140vw; min-width: 330px;"></p>
 
 
 
